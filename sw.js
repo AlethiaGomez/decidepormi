@@ -1,9 +1,10 @@
 const CACHE_NAME = 'decide-por-mi-v1'
+const BASE_PATH = '/decidepormi'
 const URLS_TO_CACHE = [
-  '/',
-  '/index.html',
-  '/vite.svg',
-  '/manifest.json'
+  `${BASE_PATH}/`,
+  `${BASE_PATH}/index.html`,
+  `${BASE_PATH}/vite.svg`,
+  `${BASE_PATH}/manifest.json`
 ]
 
 // Install event
