@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer components {
+  .btn-decision {
+    @apply px-8 py-4 text-lg font-bold rounded-full transition-all duration-300 transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-4 focus:ring-offset-2;
+  }
+
+  .input-option {
+    @apply px-4 py-2 rounded-lg border-2 border-gray-300 focus:border-blue-500 focus:outline-none transition-colors;
+  }
+}
