@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Decide por mí - Una aplicación minimalista para tomar decisiones" />
+    <meta name="theme-color" content="#059669" />
+    <link rel="icon" type="image/svg+xml" href="/decidepormi/vite.svg" />
+    <link rel="manifest" href="/decidepormi/manifest.json" />
+    <link rel="apple-touch-icon" href="/decidepormi/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+    <title>Decide por mí</title>
+    <script type="module" crossorigin src="/decidepormi/assets/index-CCJ0fBGA.js"></script>
+    <link rel="stylesheet" crossorigin href="/decidepormi/assets/index-C7QMi7bw.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js').catch(err => console.log('SW registration failed:', err))
+      }
+    </script>
+  </body>
+</html>
